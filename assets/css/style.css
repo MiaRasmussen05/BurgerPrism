@@ -160,13 +160,13 @@ nav {
     width: 30%;
     font-size: 150%;
     position: relative;
-    padding: 10% 5% 0 10% ;
+    padding: 12% 5% 0 10% ;
 }
 
 .open-header {
     font-family: 'Dancing Script', cursive;
     padding: 3%;
-    margin-left: 10%;
+    margin-left: 25%;
 }
 
 .open td{
@@ -177,12 +177,31 @@ table {
     border-spacing: 10px; 
 }
 
+.open-shadow {
+    width: 50%;
+    padding: 5%;
+    border-radius: 10px;
+    box-shadow: 0 0 7px #2c2c2c;
+}
+
 .contact {
-    margin: -12% 0 0 25%;
+    margin: -16% 0 0 25%;
+}
+
+.contact-shadow {
+    width: 60%;
+    border-radius: 10px;
+    padding: 5%;
+    box-shadow: 0 0 7px #2c2c2c;
+}
+
+.contact-shadow h3 {
+    padding-bottom: 8%;
+    margin-left: 25%;
 }
 
 iframe {
-    margin-top: 11%;
+    margin-top: 5%;
 }
 
 /* Footer */
