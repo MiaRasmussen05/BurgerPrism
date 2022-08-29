@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Libre+Baskerville&display=swap');
 
 * {
     padding: 0;
@@ -64,7 +64,7 @@ nav {
 }
 
 .quote {
-    width: 100%;
+
     position: relative;
     font-family: 'Libre Baskerville', sans-serif;
     color: #fff;
@@ -86,7 +86,63 @@ nav {
 }
 
 .menu-section {
-    height: 900px;
+    height: 600px;
+    margin-top: 15%;
+}
+
+.menu-image {
+    margin: 1% 0 0 3%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #2c2c2c;
+}
+
+.menu-section h2 {
+    color: #fff;
+    position: relative;
+    font-size: 100px;
+    z-index: 3;
+    margin: -21% 0 0 13%;
+}
+
+.box {
+    position: relative;
+    text-align: center;
+    font-size: 110%;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px;
+    padding: 2%;
+}
+
+.box li {
+    list-style: none;
+    padding: 1%;
+}
+
+.box h3 {
+    font-family: 'Dancing Script', cursive;
+    padding-bottom: 4%;
+}
+
+.specials {
+    width: 20%;
+    font-size: 200%;
+    padding: 4% 0.5%;
+    margin: -8% 0 0 40%;
+}
+
+.two-for-one {
+    width: 20%;
+    font-size: 200%;
+    padding: 4% 0.5%;
+    margin: -28% 0 0 68%;
+}
+
+.party {
+    width: 20%;
+    font-size: 200%;
+    padding: 4% 0.5%;
+    margin: 2% 0 0 68%;
 }
 
 .find-schedule {
