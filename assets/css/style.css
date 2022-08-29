@@ -1,0 +1,40 @@
+body{
+    width: 80%;
+    margin: 0 auto;
+}
+#header{
+    background-color: rgb(128, 128, 214);
+    display: grid;
+}
+/* grid for the center section*/
+
+.grid-center{
+    grid-template-columns: 50% 50%;
+}
+
+#center-detail{
+background-color: rgb(142, 185, 170);
+height: 40em;
+display: grid;
+}
+#center-left{
+    display: grid;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+}
+#center-right{
+}
+/*grid for the header*/
+.grid-header{
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    height: 8em;
+}
+/*grid for the footer*/
+.grid-footer{
+    grid-template-columns: 33% 33% 33%;
+    height: 8em;
+    background-color: rgb(192, 155, 155);
+}
+/*styling for each element contained in the grids*/
+.grid-element{
+    border: black 1px solid;
+}
